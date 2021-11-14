@@ -1,0 +1,29 @@
+{
+  "name": "todolist-backend",
+  "version": "1.0.0",
+  "description": "Projeto final do módulo 3 (fullstack). Backend da lista de tarefas.",
+  "main": "index.js",
+  "scripts": {
+    "start":" node index",
+    "dev":"nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacksont-santos/ToDoList-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacksont-santos/ToDoList-backend/issues"
+  },
+  "homepage": "https://github.com/jacksont-santos/ToDoList-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
