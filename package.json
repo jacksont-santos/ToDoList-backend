@@ -4,8 +4,8 @@
   "description": "Projeto final do módulo 3 (fullstack). Backend da lista de tarefas.",
   "main": "index.js",
   "scripts": {
-    "start":" node index",
-    "dev":"nodemon index",
+    "start": " node index",
+    "dev": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/jacksont-santos/ToDoList-backend#readme",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "mongoose": "^6.0.12"
   },
