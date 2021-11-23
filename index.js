@@ -18,5 +18,5 @@ const routeS = require("./rotas/routes");
 app.use("/", routeS);
 
 app.listen(process.env.PORT || 3001, () => {
-  console.log(" O Servidor está rodando na porta 3001");
+  console.log(" O Servidor está rodando process.env.PORT || 3001");
 });
